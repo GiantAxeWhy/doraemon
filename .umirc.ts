@@ -14,7 +14,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/juicecube/doraemon',
+      path: 'https://github.com/GiantAxeWhy/doraemon',
     },
   ],
   // more config: https://d.umijs.org/config

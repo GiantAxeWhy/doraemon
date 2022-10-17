@@ -48,7 +48,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juicecube/doraemon.git"
+    "url": "git+https://github.com/GiantAxeWhy/doraemon.git"
   },
   "keywords": [
     "mlz",
@@ -58,9 +58,9 @@
   "author": "urnotzane",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juicecube/doraemon/issues"
+    "url": "https://github.com/GiantAxeWhy/doraemon/issues"
   },
-  "homepage": "https://github.com/juicecube/doraemon#readme",
+  "homepage": "https://github.com/GiantAxeWhy/doraemon#readme",
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",

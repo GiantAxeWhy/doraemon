@@ -2,12 +2,6 @@
 
 项目常用但 lodash 又没有的工具函数集合，哆啦 A 梦般方便实用。
 
-[![](https://img.shields.io/github/workflow/status/juicecube/doraemon/npm-publish?style=flat-square&logo=github)](https://github.com/juicecube/doraemon/actions?query=workflow%3Anpm-publish)
-[![](https://img.shields.io/codecov/c/gh/juicecube/doraemon/master?style=flat-square&logo=codecov)](https://codecov.io/gh/juicecube/doraemon/branch/master)
-[![](https://img.shields.io/bundlephobia/min/@why/doraemon?style=flat-square&logo=npm)](https://www.npmjs.com/package/@why/doraemon)
-[![](https://img.shields.io/github/license/juicecube/doraemon?style=flat-square&logo=github)](https://github.com/juicecube/doraemon/blob/master/LICENSE)
-[![](https://img.shields.io/badge/website-Doraemon-brightgreen?style=flat-square&logo=github)](https://da.ithen.cn)
-
 ## 使用
 
 ### 安装
@@ -60,7 +54,7 @@ getUrlQuery('https://da.ithen.cn?name=doraemon');
 
 ## TODO
 
-[TODOS](https://github.com/juicecube/doraemon/projects/3);
+[TODOS](https://github.com/GiantAxeWhy/doraemon/projects/3);
 
 ## 开发
 
@@ -73,4 +67,4 @@ jest test/limitStringToTarget.test.ts
 
 ## 须知
 
-- 如有问题或提需求请提[issue](https://github.com/juicecube/doraemon/issues)。
+- 如有问题或提需求请提[issue](https://github.com/GiantAxeWhy/doraemon/issues)。

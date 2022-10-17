@@ -22,7 +22,7 @@ import { getUrlQuery } from '@why/doraemon';
 getUrlQuery();
 export default props => {
   const query = getUrlQuery(
-    'https://juicecube.github.io/doraemon?name=doraemon',
+    'https://GiantAxeWhy.github.io/doraemon?name=doraemon',
   );
   return <h1>{query.name}</h1>;
 };
