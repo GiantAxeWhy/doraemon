@@ -1,0 +1,11 @@
+/test/
+/coverage/
+.gitignore
+.npmignore
+jest.config.js
+tsconfig.json
+tslint.json
+yarn.lock
+package-lock.json
+.eslintrc.js
+.eslintignore

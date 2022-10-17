@@ -1,0 +1,93 @@
+{
+  "name": "@why/doraemon",
+  "version": "0.10.5",
+  "description": "项目常用但lodash又没有的工具函数集合，哆啦A梦般方便实用",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "start": "dumi dev",
+    "docs:build": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist",
+    "build": "father-build",
+    "deploy": "npm run docs:build && npm run cname && npm run docs:deploy",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "lint": "tslint --project tsconfig.json",
+    "lint-fix": "tslint --fix --project tsconfig.json",
+    "test": "jest --clearCache && jest --detectOpenHandles",
+    "test:prod": "jest --clearCache && jest --silent",
+    "tsc": "tsc --module commonjs",
+    "pre-pub": "npm run test:prod && npm run build",
+    "cname": "echo 'https://da.ithen.cn' > docs-dist/CNAME",
+    "post-publish": "npm run pre-pub && npm publish --access=public",
+    "release": "git checkout master && git pull origin master && git tag v${npm_package_version} && git push origin --tags"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -e $GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write"
+    ],
+    "*.{js,ts,tsx}": [
+      "eslint"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "files": [
+    "lib",
+    "es",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juicecube/doraemon.git"
+  },
+  "keywords": [
+    "mlz",
+    "utils",
+    "typescript"
+  ],
+  "author": "urnotzane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juicecube/doraemon/issues"
+  },
+  "homepage": "https://github.com/juicecube/doraemon#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@why/lint": "^1.1.10",
+    "@types/jest": "^26.0.0",
+    "@types/jsdom": "^11.0.4",
+    "@types/lodash": "^4.14.157",
+    "dumi": "^1.0.8",
+    "eslint": "^7.2.0",
+    "father-build": "^1.19.1",
+    "gh-pages": "^3.0.0",
+    "jest": "^26.0.1",
+    "jsdom": "^16.3.0",
+    "lint-staged": "^10.2.10",
+    "prettier": "^1.19.1",
+    "react-router": "^5.2.0",
+    "ts-jest": "^26.1.0",
+    "ts-lint": "^4.5.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.12.5",
+    "lodash": "^4.17.19"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  }
+}

@@ -1,0 +1,5 @@
+*.test.(j|t)s
+rollup.config.ts
+dist
+/lib
+/es
