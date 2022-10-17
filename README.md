@@ -39,7 +39,7 @@ npm i -D babel-plugin-import
 ```typescript
 import { getUrlQuery } from '@giantaxewhy/doraemon';
 
-getUrlQuery('https://da.ithen.cn?name=doraemon');
+getUrlQuery('https://www.baidu.com?name=doraemon');
 ```
 
 4. 若不想安装 babel-plugin-import，又想按需引入：
@@ -47,10 +47,10 @@ getUrlQuery('https://da.ithen.cn?name=doraemon');
 ```typescript
 import getUrlQuery from '@giantaxewhy/doraemon/lib/getUrlQuery';
 
-getUrlQuery('https://da.ithen.cn?name=doraemon');
+getUrlQuery('https://www.baidu.com?name=doraemon');
 ```
 
-更多使用文档详看[Doraemon](https://da.ithen.cn)。
+更多请使用文档查看
 
 ## TODO
 
