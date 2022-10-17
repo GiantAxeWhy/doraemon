@@ -13,7 +13,7 @@ group:
 ## 使用
 
 ```typescript
-import { copyTextToClipboard } from '@why/doraemon';
+import { copyTextToClipboard } from '@giantaxewhy/doraemon';
 import { message } from 'antd';
 
 const handleCopy = async () => {

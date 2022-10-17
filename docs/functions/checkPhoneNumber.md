@@ -8,7 +8,7 @@ toc: menu
 检查手机号是否合法。
 
 ```typescript
-import { checkPhoneNumber } from '@why/doraemon';
+import { checkPhoneNumber } from '@giantaxewhy/doraemon';
 
 checkPhoneNumber('13222222222'); // true
 checkPhoneNumber(13222222222); // true

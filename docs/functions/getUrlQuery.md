@@ -16,7 +16,7 @@ group:
 
 ```typescript
 import React from 'react';
-import { getUrlQuery } from '@why/doraemon';
+import { getUrlQuery } from '@giantaxewhy/doraemon';
 
 // 默认取location.href
 getUrlQuery();
@@ -34,7 +34,7 @@ export default props => {
 
 ```typescript
 import React from 'react';
-import { getUrlQuery } from '@why/doraemon';
+import { getUrlQuery } from '@giantaxewhy/doraemon';
 
 export default props => {
   // 聪明的人看得出，区别在这儿

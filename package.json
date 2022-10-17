@@ -1,6 +1,6 @@
 {
-  "name": "@why/doraemon",
-  "version": "0.10.5",
+  "name": "@giantaxewhy/doraemon",
+  "version": "0.0.1",
   "description": "项目常用但lodash又没有的工具函数集合，哆啦A梦般方便实用",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -51,11 +51,11 @@
     "url": "git+https://github.com/GiantAxeWhy/doraemon.git"
   },
   "keywords": [
-    "mlz",
+    "why",
     "utils",
     "typescript"
   ],
-  "author": "urnotzane",
+  "author": "wanghy",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GiantAxeWhy/doraemon/issues"
@@ -64,8 +64,8 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@why/lint": "^1.1.10",
-    "@types/jest": "^26.0.0",
+    "@giantaxewhy/lint": "^1.1.10",
+    "@types/jest": "^26.0.24",
     "@types/jsdom": "^11.0.4",
     "@types/lodash": "^4.14.157",
     "dumi": "^1.0.8",

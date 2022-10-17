@@ -7,7 +7,7 @@
 ### 安装
 
 ```bash
-npm i @why/doraemon@latest
+npm i @giantaxewhy/doraemon@latest
 ```
 
 ### 按需引入
@@ -26,7 +26,7 @@ npm i -D babel-plugin-import
     [
       "import",
       {
-        "libraryName": "@why/doraemon",
+        "libraryName": "@giantaxewhy/doraemon",
         "camel2DashComponentName": false
       }
     ]
@@ -37,7 +37,7 @@ npm i -D babel-plugin-import
 3. 引入（省略前两步时就不是按需引入了）
 
 ```typescript
-import { getUrlQuery } from '@why/doraemon';
+import { getUrlQuery } from '@giantaxewhy/doraemon';
 
 getUrlQuery('https://da.ithen.cn?name=doraemon');
 ```
@@ -45,7 +45,7 @@ getUrlQuery('https://da.ithen.cn?name=doraemon');
 4. 若不想安装 babel-plugin-import，又想按需引入：
 
 ```typescript
-import getUrlQuery from '@why/doraemon/lib/getUrlQuery';
+import getUrlQuery from '@giantaxewhy/doraemon/lib/getUrlQuery';
 
 getUrlQuery('https://da.ithen.cn?name=doraemon');
 ```

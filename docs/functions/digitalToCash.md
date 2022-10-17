@@ -13,7 +13,7 @@ group:
 ## 使用
 
 ```typescript
-import { digitalToCash } from '@why/doraemon';
+import { digitalToCash } from '@giantaxewhy/doraemon';
 
 digitalToCash(0); // 0.00
 digitalToCash(10000); // 1,000.00

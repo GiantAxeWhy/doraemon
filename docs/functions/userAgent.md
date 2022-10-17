@@ -13,7 +13,7 @@ group:
 ## isIos
 
 ```typescript
-import { isIos } from '@why/doraemon';
+import { isIos } from '@giantaxewhy/doraemon';
 
 isIos(); // true | false
 ```
@@ -21,7 +21,7 @@ isIos(); // true | false
 ## isWechat
 
 ```typescript
-import { isWechat } from '@why/doraemon';
+import { isWechat } from '@giantaxewhy/doraemon';
 
 isWechat(); // true | false
 ```
@@ -29,7 +29,7 @@ isWechat(); // true | false
 ## isMobile
 
 ```typescript
-import { isMobile } from '@why/doraemon';
+import { isMobile } from '@giantaxewhy/doraemon';
 
 isMobile(); // true | false
 ```

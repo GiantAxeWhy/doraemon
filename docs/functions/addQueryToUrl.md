@@ -12,7 +12,7 @@ toc: menu
 ## 常用
 
 ```typescript
-import { addQueryToUrl } from '@why/doraemon';
+import { addQueryToUrl } from '@giantaxewhy/doraemon';
 
 const url = 'https://da.ithen.cn';
 const query = {
@@ -25,7 +25,7 @@ addQueryToUrl(query, url); // https://da.ithen.cn?name=doraemon&time=2020
 ## url 已经有参数
 
 ```typescript
-import { addQueryToUrl } from '@why/doraemon';
+import { addQueryToUrl } from '@giantaxewhy/doraemon';
 
 const url = 'https://da.ithen.cn?author=urnotzane';
 const query = {
@@ -38,7 +38,7 @@ addQueryToUrl(query, url); // https://da.ithen.cn?author=urnotzane&name=doraemon
 ## 缺斤少两用
 
 ```typescript
-import { addQueryToUrl } from '@why/doraemon';
+import { addQueryToUrl } from '@giantaxewhy/doraemon';
 
 const url = 'https://da.ithen.cn';
 const query = {
@@ -54,7 +54,7 @@ addQueryToUrl(query, ''); // ?name=doraemon&time=2020
 那么需要将参数值转义后再加到 url 上，因为 url 上有参数的话，我们无法区分这个参数的结束位置是哪里。
 
 ```typescript
-import { addQueryToUrl } from '@why/doraemon';
+import { addQueryToUrl } from '@giantaxewhy/doraemon';
 
 const url = 'https://da.ithen.cn';
 const query = {
