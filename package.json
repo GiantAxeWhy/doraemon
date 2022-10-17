@@ -1,7 +1,7 @@
 {
   "name": "@giantaxewhy/doraemon",
   "version": "0.0.1",
-  "description": "项目常用但lodash又没有的工具函数集合，哆啦A梦般方便实用",
+  "description": "项目常用的工具函数集合，哆啦A梦般方便实用",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
