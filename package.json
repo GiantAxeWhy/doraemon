@@ -64,7 +64,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@giantaxewhy/lint": "^1.1.10",
+    "@mlz/lint": "^1.1.10",
     "@types/jest": "^26.0.24",
     "@types/jsdom": "^11.0.4",
     "@types/lodash": "^4.14.157",
